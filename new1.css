@@ -1,0 +1,260 @@
+.html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #down {
+  margin-top: 100%;
+  padding-bottom: 25%;
+ } 
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_sidebar {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 8px;
+  padding: 2px;
+  width: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonBottom {
+  border-radius: 5px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 70 px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button_sidebar span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_sidebar span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_sidebar:hover span {
+  padding-right: 15px;
+}
+
+.button_sidebar:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.buttonBottom span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonBottom span:after {
+  content: '\1F4CB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.buttonBottom:hover span {
+  padding-right: 15px;
+}
+
+.buttonBottom:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonSmall {
+  border-radius: 3px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  width: 50px;
+  margin: 1px;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button_left_relative {background-color: #4CAF50;
+						position: relative;
+						left: -24%;
+						width: 140px} /* Green */
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  margin: 8px 8px;
+  font-size: 20px;
+  width: 50%;
+  height: 15px;
+  position: relative;
+  top: 5px;
+  left: 24%;
+  border: 3px;
+  border-radius: 3px;
+}
+
+.header_1 {background-color: #4CAF50;} /* Green */
+.header_2 {background-color: #008CBA;} /* Blue */
+.header_3 {background-color: #FFA500;} /* Orange */
+
+.input[type=text], select {
+	display: block;
+	margin: 0 auto;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.div {
+	text-align: center;
+	padding: 10px;
+	border: 3px;
+	border-radius: 3px;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+        }
+
+.divSticky {text-align: center;
+			padding: 0px;
+			position: sticky;
+			top: 0px;
+			z-index: 999;
+			width: 100%
+}
+
+.stickySidebar {text-align: center;
+			padding: 0px;
+			position: sticky;
+			top: 56px;
+			z-index: 998;
+			width: 8%;
+}
+
+.divBottom {text-align: center;
+			padding: 0px;
+			position: fixed;
+			bottom: 0;
+			z-index: 999;
+			width: 100%
+}
+
+.divPosts {text-align: center;
+		   padding: 10px;
+		   position: relative;
+		   width: 40%;
+		   left: 8%;
+		   top: -300px;
+}
+
+.divPostDisplay {text-align: center;
+		   padding: 10px;
+		   position: relative;
+		   width: 90%;
+		   border-radius: 4px;
+		   margin: 5px;
+		   left: 4%;
+		   
+}
+
+
+h1 {
+	color: white }
+	
+h3 {position: relative;
+	top: 2px;
+	color: white}
+
+.h5 {color: #FFCDCD}
+
+.h6 {color: white}
+
+.resizedTextbox {width: 200px; height: 20px}
+
+.body = {background-color: #FFA500}
+.bgOrange {background-color: #FFA500;} /* Orange */
+.bgSoftRed {background-color: #FF3232;} /* Soft red */
+.bgWineRed {background-color: #990000;} /* Wine red */
+.bgCrimson {background-color: #801919;}
+.bgSoftPink {background-color: #FF8080;}
+.bgRedClay {background-color: #804040;}
+.bgBloodRed {background-color: #CC2929;}
+.bgFurnaceGray {background-color: #333333;}
+.bgFurnaceGray {background-color: #333333;}
+
+
+.relativeLeft {position: relative; left: -40%}
+.relativeRight {position: relative; left: 40%}
+.relativeBottom {position: absolute; bottom: 0px; width: 400px; height: 30px; left: 70%}
